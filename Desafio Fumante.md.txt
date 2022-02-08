@@ -1,1 +1,35 @@
 # Alteração do tempo de vida devido ao tabagismo
+
+
+
+## Determinar a redução do tempo de vida de um indivíduo com base no seu consumo de cigarros.
+
+
+
+## Algoritmo "desafioFumante"
+
+
+
+Var
+   quantidade, quantF, tempoF, ano, red, redDias : Real
+
+Inicio
+      EscrevaL (" Redução de tempo de vida com o cigarro ")
+      EscrevaL ("----------------------------------------")
+      EscrevaL ("----------------------------------------")
+      EscrevaL ("Quantos cigarros você fuma diariamente?")
+      Leia (quantidade)
+      EscrevaL ("Você fuma há quantos anos?")
+      Leia (tempoF)
+      
+
+      red <- tempoF * 365 * quantidade * 10
+      redDias <- red / (24 * 60)
+
+
+      EscrevaL("O total de dias perdidos na sua vida é de ", redDias:4:2)
+
+FimAlgoritmo
+
+
+
